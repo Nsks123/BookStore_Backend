@@ -1,0 +1,17 @@
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\bin\Debug\netcoreapp3.1\Repository_BookStore_Layer.deps.json
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\bin\Debug\netcoreapp3.1\Repository_BookStore_Layer.runtimeconfig.json
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\bin\Debug\netcoreapp3.1\Repository_BookStore_Layer.runtimeconfig.dev.json
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\bin\Debug\netcoreapp3.1\Repository_BookStore_Layer.dll
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\bin\Debug\netcoreapp3.1\Repository_BookStore_Layer.pdb
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\obj\Debug\netcoreapp3.1\Repository_BookStore_Layer.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\obj\Debug\netcoreapp3.1\Repository_BookStore_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\obj\Debug\netcoreapp3.1\Repository_BookStore_Layer.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\obj\Debug\netcoreapp3.1\Repository_BookStore_Layer.AssemblyInfo.cs
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\obj\Debug\netcoreapp3.1\Repository_BookStore_Layer.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\obj\Debug\netcoreapp3.1\Repository_BookStore_Layer.sourcelink.json
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\obj\Debug\netcoreapp3.1\Repository_BookStore_Layer.dll
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\obj\Debug\netcoreapp3.1\Repository_BookStore_Layer.pdb
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\obj\Debug\netcoreapp3.1\Repository_BookStore_Layer.genruntimeconfig.cache
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\bin\Debug\netcoreapp3.1\Common_BookStore_Layer.dll
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\bin\Debug\netcoreapp3.1\Common_BookStore_Layer.pdb
+C:\Users\hp\Desktop\LocoBuzz\Training\Repository_BookStore_Layer\obj\Debug\netcoreapp3.1\Reposito.DE8AD538.Up2Date
