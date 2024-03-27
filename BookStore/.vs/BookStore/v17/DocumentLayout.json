@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99120E44-C11F-4EE6-B185-F7808FB2B0F7}|..\\Repository_BookStore_Layer\\Repository_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\repository_bookstore_layer\\services\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3FCD7EF-4C4B-4816-BC89-B26F4E09E622}|BookStore.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\bookstore\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3FCD7EF-4C4B-4816-BC89-B26F4E09E622}|BookStore.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC16A50-CC32-4E34-8C2B-DAD47285FC38}|..\\Manager_BookStore_Layer\\Manager_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\manager_bookstore_layer\\interfaces\\ibookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC16A50-CC32-4E34-8C2B-DAD47285FC38}|..\\Manager_BookStore_Layer\\Manager_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\manager_bookstore_layer\\services\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99120E44-C11F-4EE6-B185-F7808FB2B0F7}|..\\Repository_BookStore_Layer\\Repository_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\repository_bookstore_layer\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E6C212-2138-49F8-9B26-2E935E0AC767}|..\\Common_BookStore_Layer\\Common_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\common_bookstore_layer\\requestmodel\\createbookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E6C212-2138-49F8-9B26-2E935E0AC767}|..\\Common_BookStore_Layer\\Common_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\common_bookstore_layer\\requestmodel\\userregmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99120E44-C11F-4EE6-B185-F7808FB2B0F7}|..\\Repository_BookStore_Layer\\Repository_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\repository_bookstore_layer\\bookstoreentity\\bookentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99120E44-C11F-4EE6-B185-F7808FB2B0F7}|..\\Repository_BookStore_Layer\\Repository_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\repository_bookstore_layer\\bookstorecontext\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99120E44-C11F-4EE6-B185-F7808FB2B0F7}|..\\Repository_BookStore_Layer\\Repository_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\repository_bookstore_layer\\bookstoreentity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRegModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Common_BookStore_Layer\\RequestModel\\UserRegModel.cs",
+              "RelativeDocumentMoniker": "..\\Common_BookStore_Layer\\RequestModel\\UserRegModel.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Common_BookStore_Layer\\RequestModel\\UserRegModel.cs",
+              "RelativeToolTip": "..\\Common_BookStore_Layer\\RequestModel\\UserRegModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:03:45.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateBookModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Common_BookStore_Layer\\RequestModel\\CreateBookModel.cs",
+              "RelativeDocumentMoniker": "..\\Common_BookStore_Layer\\RequestModel\\CreateBookModel.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Common_BookStore_Layer\\RequestModel\\CreateBookModel.cs",
+              "RelativeToolTip": "..\\Common_BookStore_Layer\\RequestModel\\CreateBookModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T10:03:36.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAQwMsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:25:43.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBookManager.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Interfaces\\IBookManager.cs",
+              "RelativeDocumentMoniker": "..\\Manager_BookStore_Layer\\Interfaces\\IBookManager.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Interfaces\\IBookManager.cs",
+              "RelativeToolTip": "..\\Manager_BookStore_Layer\\Interfaces\\IBookManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:49:12.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookManager.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Services\\BookManager.cs",
+              "RelativeDocumentMoniker": "..\\Manager_BookStore_Layer\\Services\\BookManager.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Services\\BookManager.cs",
+              "RelativeToolTip": "..\\Manager_BookStore_Layer\\Services\\BookManager.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwC8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:48:43.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "..\\Repository_BookStore_Layer\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:48:04.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Services\\BookRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\Services\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Services\\BookRepository.cs",
+              "RelativeToolTip": "..\\Repository_BookStore_Layer\\Services\\BookRepository.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwDgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:47:11.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\BookStoreContext\\UserContext.cs",
+              "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\BookStoreContext\\UserContext.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\BookStoreContext\\UserContext.cs",
+              "RelativeToolTip": "..\\Repository_BookStore_Layer\\BookStoreContext\\UserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T07:13:01.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\BookStoreEntity\\UserEntity.cs",
+              "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\BookStoreEntity\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\BookStoreEntity\\UserEntity.cs",
+              "RelativeToolTip": "..\\Repository_BookStore_Layer\\BookStoreEntity\\UserEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:38:10.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookEntity.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\BookStoreEntity\\BookEntity.cs",
+              "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\BookStoreEntity\\BookEntity.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\BookStoreEntity\\BookEntity.cs",
+              "RelativeToolTip": "..\\Repository_BookStore_Layer\\BookStoreEntity\\BookEntity.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:41:54.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
