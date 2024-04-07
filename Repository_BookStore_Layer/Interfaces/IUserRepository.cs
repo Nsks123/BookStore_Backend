@@ -11,6 +11,7 @@ namespace Repository_BookStore_Layer.Interfaces
         // User Registration
         public UserEntity UserRegistration(UserRegModel model);
         public string UserLogin(UserLoginModel model);
+        // User Forgot Password
         public ForgotPasswordModel ForgetPass(string Email);
 
         public bool CheckEmail(string Email);
