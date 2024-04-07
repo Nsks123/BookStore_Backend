@@ -72,6 +72,7 @@ namespace BookStore.Controllers
                 return BadRequest(new ResModel<List<BookEntity>> { Success = false, Message = " Getting All Books Failed", Data = null });
             }
         }
+        //Get All Books by BookId
         [HttpGet]
         [Route("GetBookById")]
         public ActionResult GetBook(int id)
