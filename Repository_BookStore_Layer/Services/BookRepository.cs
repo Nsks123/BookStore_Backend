@@ -81,6 +81,7 @@ namespace Repository_BookStore_Layer.Services
 
             return context.BookTable.OrderBy(a=>a.CreatedAt).ToList();
         }
+        //Sorting books by new Arrival in Des
         public List<BookEntity> SortByArrivalDes()
         {
             return context.BookTable.OrderByDescending(a => a.CreatedAt ).ToList();
