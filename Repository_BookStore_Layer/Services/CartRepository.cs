@@ -78,6 +78,7 @@ namespace Repository_BookStore_Layer.Services
                 throw new Exception("product not added to cart");
             }
         }
+        //Remove from Cart
         public CartEntity Removecart(int UserId, int ProductId)
         {
             var existingCart = context.CartTable.FirstOrDefault(o => o.UserId == UserId && o.BookId == ProductId);
