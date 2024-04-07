@@ -40,6 +40,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.SortByPrice();
         }
+        //Sorting books by price in Desending
         public List<BookEntity> SortByPriceDes()
         {
             return repository.SortByPriceDes();
