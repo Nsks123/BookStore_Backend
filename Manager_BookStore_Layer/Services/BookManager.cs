@@ -45,6 +45,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.SortByPriceDes();
         }
+        //Sorting books by new Arrival
         public List<BookEntity> SortByArrivalAsc()
         {
             return repository.SortByArrivalAsc();

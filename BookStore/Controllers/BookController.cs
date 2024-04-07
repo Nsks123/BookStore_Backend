@@ -176,6 +176,7 @@ namespace BookStore.Controllers
                 return BadRequest(new ResModel<List<BookEntity>> { Success = false, Message = " Sorted Price Descending Failed", Data = null });
             }
         }
+        //Sorting books by new Arrival in Asc
         [HttpGet]
         [Route("SortArrivalInAsc")]
         public ActionResult SortArrivalInAsc()

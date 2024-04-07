@@ -20,6 +20,7 @@ namespace Repository_BookStore_Layer.Interfaces
         public List<BookEntity> SortByPrice();
         //Sorting books by price in Desending
         public List<BookEntity> SortByPriceDes();
+        //Sorting books by new Arrival
         public List<BookEntity> SortByArrivalAsc();
         public List<BookEntity> SortByArrivalDes();
     }
