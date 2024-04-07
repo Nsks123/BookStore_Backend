@@ -46,7 +46,7 @@ namespace Repository_BookStore_Layer.Services
             }
 
         }
-       
+        
         public string UserLogin(UserLoginModel model)
         {
            
@@ -150,6 +150,7 @@ namespace Repository_BookStore_Layer.Services
             return new JwtSecurityTokenHandler().WriteToken(token);
 
         }
+        // User Forgot Password
         public ForgotPasswordModel ForgetPass(string Email)
         {
             var user = context.UserTable.FirstOrDefault(x => x.Emailid == Email);

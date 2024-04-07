@@ -24,6 +24,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.UserLogin(model);
         }
+        // User Forgot Password
         public ForgotPasswordModel ForgetPass(string Email){ 
             return repository.ForgetPass(Email); 
         }

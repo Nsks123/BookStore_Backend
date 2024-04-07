@@ -76,6 +76,7 @@ namespace BookStore.Controllers
                 return BadRequest(new ResModel<string> { Success = false, Message = "User Login Failed", Data = null });
             }
         }
+        // User Forgot Password
         [HttpPost]
         [Route("Forgot")]
         public async Task<ActionResult> ForgotPassword(string Email)
