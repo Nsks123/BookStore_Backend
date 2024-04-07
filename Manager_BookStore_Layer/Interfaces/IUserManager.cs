@@ -15,7 +15,7 @@ namespace Manager_BookStore_Layer.Interfaces
         public ForgotPasswordModel ForgetPass(string Email);
 
         public bool CheckEmail(string Email);
-
+        // User Reset Password
         public bool ResetPassword(string Email, ResetPasswordModel resetPasswordModel);
 
 
