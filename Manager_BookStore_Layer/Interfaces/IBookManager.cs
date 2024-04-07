@@ -8,6 +8,7 @@ namespace Manager_BookStore_Layer.Interfaces
 {
     public interface IBookManager
     {
+        //Add Book
         public BookEntity CreateBook(CreateBookModel model);
         public List<BookEntity> GetAllBook();
         public BookEntity GetBookId(int id);
