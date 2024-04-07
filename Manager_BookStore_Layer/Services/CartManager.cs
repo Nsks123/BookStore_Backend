@@ -36,6 +36,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.Removecart(UserId, ProductId);
         }
+        //Delete Cart
         public CartEntity DeleteCart(int id, int cartid)
         {
             return repository.DeleteCart(id, cartid);
