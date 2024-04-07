@@ -15,6 +15,7 @@ namespace Repository_BookStore_Layer.Services
         {
             this.context = context;
         }
+        //Add to Wishlist
         public WishListEntity AddToWishList(int id,int bookid)
         {
             var wishlist=context.WishListTable.SingleOrDefault(o=>o.UserId == id && o.BookId==bookid);

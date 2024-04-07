@@ -7,6 +7,7 @@ namespace Repository_BookStore_Layer.Interfaces
 {
     public interface IWishListRepository
     {
+        //Add to Wishlist
         public WishListEntity AddToWishList(int id, int bookid);
         public List<WishListEntity> GetAllWishlist(int id);
         public WishListEntity DeleteWishList(int id, int wishlistid);
