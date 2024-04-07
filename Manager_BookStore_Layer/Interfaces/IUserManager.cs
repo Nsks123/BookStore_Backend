@@ -8,6 +8,7 @@ namespace Manager_BookStore_Layer.Interfaces
 {
     public interface IUserManager
     {
+        // User Registration
         public UserEntity UserRegistration(UserRegModel model);
         public string UserLogin(UserLoginModel model);
         public ForgotPasswordModel ForgetPass(string Email);

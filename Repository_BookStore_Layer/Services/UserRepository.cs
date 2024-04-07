@@ -24,6 +24,7 @@ namespace Repository_BookStore_Layer.Services
             this.context = context;
             this.config = config;
         }
+        // User Registration
         
         public UserEntity UserRegistration(UserRegModel model)
         {

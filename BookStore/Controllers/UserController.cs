@@ -31,6 +31,7 @@ namespace BookStore.Controllers
             this.userContext = userContext;
             this._cache=_cache;
         }
+        // User Registration
         [HttpPost]
         [Route("UserRegistration")]
         public ActionResult UserRegister(UserRegModel model)

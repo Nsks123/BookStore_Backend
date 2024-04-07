@@ -15,6 +15,7 @@ namespace Manager_BookStore_Layer.Services
         {
             this.repository = repository;
         }
+        // User Registration
         public UserEntity UserRegistration(UserRegModel model)
         {
             return repository.UserRegistration(model);
