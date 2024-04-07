@@ -51,6 +51,7 @@ namespace Repository_BookStore_Layer.Services
                 throw new Exception("Book is out of Stock");
             }
         }
+        //Get all Cart
         public List<CartEntity> GetAll(int id)
         {
             return context.CartTable.Where(o=>o.UserId==id).ToList();
