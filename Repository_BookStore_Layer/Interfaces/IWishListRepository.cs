@@ -11,6 +11,7 @@ namespace Repository_BookStore_Layer.Interfaces
         public WishListEntity AddToWishList(int id, int bookid);
         //Get All Wishlist
         public List<WishListEntity> GetAllWishlist(int id);
+        //Delete Wishlist
         public WishListEntity DeleteWishList(int id, int wishlistid);
     }
 }

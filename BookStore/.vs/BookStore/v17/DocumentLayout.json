@@ -39,7 +39,7 @@
               "RelativeDocumentMoniker": "..\\Common_BookStore_Layer\\RequestModel\\AddAddressModel.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Common_BookStore_Layer\\RequestModel\\AddAddressModel.cs",
               "RelativeToolTip": "..\\Common_BookStore_Layer\\RequestModel\\AddAddressModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:15:16.035Z",
               "EditorCaption": ""
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Controllers\\WishListController.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\Controllers\\WishListController.cs",
               "RelativeToolTip": "Controllers\\WishListController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwDAAAAAaAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwEMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:12:08.639Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "..\\Manager_BookStore_Layer\\Interfaces\\IWishListManager.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Interfaces\\IWishListManager.cs",
               "RelativeToolTip": "..\\Manager_BookStore_Layer\\Interfaces\\IWishListManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:11:58.764Z",
               "EditorCaption": ""
@@ -78,7 +78,7 @@
               "RelativeDocumentMoniker": "..\\Manager_BookStore_Layer\\Services\\WishListManager.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Services\\WishListManager.cs",
               "RelativeToolTip": "..\\Manager_BookStore_Layer\\Services\\WishListManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:11:43.755Z",
               "EditorCaption": ""
@@ -91,7 +91,7 @@
               "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\Interfaces\\IWishListRepository.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Interfaces\\IWishListRepository.cs",
               "RelativeToolTip": "..\\Repository_BookStore_Layer\\Interfaces\\IWishListRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:11:25.981Z",
               "EditorCaption": ""
@@ -104,7 +104,7 @@
               "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\Services\\WishListRepository.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Services\\WishListRepository.cs",
               "RelativeToolTip": "..\\Repository_BookStore_Layer\\Services\\WishListRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAaAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCkAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:11:04.825Z",
               "EditorCaption": ""
