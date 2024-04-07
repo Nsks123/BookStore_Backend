@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Repository_BookStore_Layer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3785c65eb25ffc470be72d63814215ba1debc5ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f54d9619095a3ac77339adc424864d952bb94f38")]
 [assembly: System.Reflection.AssemblyProductAttribute("Repository_BookStore_Layer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repository_BookStore_Layer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
