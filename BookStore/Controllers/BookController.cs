@@ -46,6 +46,7 @@ namespace BookStore.Controllers
 
             }
         }
+        //Get All Books
         [HttpGet]
         [Route("GetAllBooks")]
         public ActionResult GetAllBooks()
