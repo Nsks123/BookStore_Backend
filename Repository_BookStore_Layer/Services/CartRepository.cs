@@ -19,6 +19,7 @@ namespace Repository_BookStore_Layer.Services
         {
             this.context = context;
         }
+        //Add  to Cart
         public CartEntity AddCart(int id,int bookid)
         {
             var checking=context.BookTable.SingleOrDefault(o=>o.BookId==bookid);
