@@ -35,6 +35,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.GetBySearch(author, bookname);
         }
+        //Sorting books by price in Ascending
         public List<BookEntity> SortByPrice()
         {
             return repository.SortByPrice();
