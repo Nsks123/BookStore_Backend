@@ -56,6 +56,7 @@ namespace Repository_BookStore_Layer.Services
         {
             return context.CartTable.Where(o=>o.UserId==id).ToList();
         }
+        //Update Cart
         public CartEntity UpdateCart(int userid, int bookid)
         {
             var cart = context.CartTable.FirstOrDefault(x => x.UserId == userid && x.BookId == bookid);
