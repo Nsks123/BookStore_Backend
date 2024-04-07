@@ -19,6 +19,7 @@ namespace BookStore.Controllers
         {
             this.wishlistManager = wishlistManager;
         }
+        //Add to Wishlist
         [Authorize]
         [HttpPost]
         [Route("AddToWishList")]
