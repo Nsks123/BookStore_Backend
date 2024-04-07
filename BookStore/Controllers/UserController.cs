@@ -107,6 +107,7 @@ namespace BookStore.Controllers
             }
 
         }
+        // User Reset Password
         [Authorize]
         [HttpPost]
         [Route("Reset")]

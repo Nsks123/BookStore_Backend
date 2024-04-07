@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Common_BookStore_Layer.RequestModel
 {
+    // User Reset Password
     public class ResetPasswordModel
     {
         [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\[\]{}|;:'""<>,.?/~`]).{8,}$",

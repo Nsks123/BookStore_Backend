@@ -168,6 +168,7 @@ namespace Repository_BookStore_Layer.Services
             }
 
         }
+        // User Reset Password
         public bool ResetPassword(string Email, ResetPasswordModel resetPasswordModel)
         {
             UserEntity user = context.UserTable.ToList().Find(user => user.Emailid == Email);

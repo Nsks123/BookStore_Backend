@@ -32,8 +32,8 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.CheckEmail(Email);
         }
-       
 
+        // User Reset Password
         public bool ResetPassword(string Email, ResetPasswordModel resetPasswordModel)
         {
             return repository.ResetPassword(Email, resetPasswordModel);
