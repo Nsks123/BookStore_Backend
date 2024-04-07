@@ -65,6 +65,7 @@ namespace BookStore.Controllers
                 return BadRequest(new ResModel<List<WishListEntity>> { Success = false, Message = "Get All WishList Failed", Data = response });
             }
         }
+        //Delete Wishlist
         [Authorize]
         [HttpDelete]
         [Route("DeleteWishList")]
