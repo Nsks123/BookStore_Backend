@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26E6C212-2138-49F8-9B26-2E935E0AC767}|..\\Common_BookStore_Layer\\Common_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\common_bookstore_layer\\requestmodel\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3FCD7EF-4C4B-4816-BC89-B26F4E09E622}|BookStore.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\bookstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3FCD7EF-4C4B-4816-BC89-B26F4E09E622}|BookStore.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,71 +50,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ResetPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Common_BookStore_Layer\\RequestModel\\ResetPasswordModel.cs",
+              "RelativeDocumentMoniker": "..\\Common_BookStore_Layer\\RequestModel\\ResetPasswordModel.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Common_BookStore_Layer\\RequestModel\\ResetPasswordModel.cs",
+              "RelativeToolTip": "..\\Common_BookStore_Layer\\RequestModel\\ResetPasswordModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T13:02:09.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAYwE4AAAAfAAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAkwG0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T09:16:17.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IUserManager.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Interfaces\\IUserManager.cs",
               "RelativeDocumentMoniker": "..\\Manager_BookStore_Layer\\Interfaces\\IUserManager.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Interfaces\\IUserManager.cs",
               "RelativeToolTip": "..\\Manager_BookStore_Layer\\Interfaces\\IUserManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T09:16:06.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserManager.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Services\\UserManager.cs",
               "RelativeDocumentMoniker": "..\\Manager_BookStore_Layer\\Services\\UserManager.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Services\\UserManager.cs",
               "RelativeToolTip": "..\\Manager_BookStore_Layer\\Services\\UserManager.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAfAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwCMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T09:15:55.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\Interfaces\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "..\\Repository_BookStore_Layer\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T09:15:28.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Services\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\Services\\UserRepository.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Services\\UserRepository.cs",
               "RelativeToolTip": "..\\Repository_BookStore_Layer\\Services\\UserRepository.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAswJgAAAAIAAAA",
+              "ViewState": "AQIAAKMAAAAAAAAAAADwv6oAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T09:12:59.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Controllers\\CartController.cs",
@@ -123,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ICartManager.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Interfaces\\ICartManager.cs",
               "RelativeDocumentMoniker": "..\\Manager_BookStore_Layer\\Interfaces\\ICartManager.cs",
@@ -135,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CartManager.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Services\\CartManager.cs",
               "RelativeDocumentMoniker": "..\\Manager_BookStore_Layer\\Services\\CartManager.cs",
@@ -147,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ICartRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Interfaces\\ICartRepository.cs",
               "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\Interfaces\\ICartRepository.cs",
@@ -159,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CartRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Services\\CartRepository.cs",
               "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\Services\\CartRepository.cs",
