@@ -20,6 +20,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.CreateBook(model);
         }
+        //Get All Books
         public List<BookEntity> GetAllBook()
         {
             return repository.GetAllBook();
