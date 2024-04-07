@@ -63,6 +63,7 @@ namespace Repository_BookStore_Layer.Services
         {
             return context.BookTable.Where(b=>b.Author.Contains(author) ||  b.BookName.Contains(bookname)).ToList();
         }
+        //Sorting books by price in Ascending
         public List<BookEntity> SortByPrice()
         {
             return context.BookTable.OrderBy(a=>a.DiscountPrice).ToList();

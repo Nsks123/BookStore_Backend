@@ -124,6 +124,7 @@ namespace BookStore.Controllers
                 return BadRequest(new ResModel<List<BookEntity>> { Success = false, Message = " Get Book Failed", Data = null });
             }
         }
+        //Sorting books by price in Ascending
         [HttpGet]
         [Route("SortPriceInAsc")]
         public ActionResult SortPriceInAsc()
