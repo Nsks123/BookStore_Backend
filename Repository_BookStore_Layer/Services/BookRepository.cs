@@ -75,6 +75,7 @@ namespace Repository_BookStore_Layer.Services
             return context.BookTable.OrderByDescending(a=>a.DiscountPrice).ToList();
 
         }
+        //Sorting books by new Arrival
         public List<BookEntity> SortByArrivalAsc()
         { 
 
