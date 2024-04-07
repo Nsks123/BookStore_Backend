@@ -14,6 +14,7 @@ namespace Manager_BookStore_Layer.Services
         {
             this.repository = repository;
         }
+        //Add to Wishlist
         public WishListEntity AddToWishList(int id, int bookid)
         {
             return repository.AddToWishList(id, bookid);
