@@ -124,6 +124,7 @@ namespace BookStore.Controllers
                 return BadRequest(new ResModel<CartEntity> { Success = false, Message = ex.Message, Data = null });
             }
         }
+        //Delete Cart
         [Authorize]
         [HttpDelete]
         [Route("DeleteCart")]
