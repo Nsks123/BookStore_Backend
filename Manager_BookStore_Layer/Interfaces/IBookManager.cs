@@ -22,6 +22,7 @@ namespace Manager_BookStore_Layer.Interfaces
         public List<BookEntity> SortByPriceDes();
         //Sorting books by new Arrival
         public List<BookEntity> SortByArrivalAsc();
+        //Sorting books by new Arrival in Des
         public List<BookEntity> SortByArrivalDes();
     }
 }
