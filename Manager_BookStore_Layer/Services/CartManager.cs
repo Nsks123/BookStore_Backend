@@ -29,6 +29,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.UpdateCart(userid, bookid);
         }
+        //Remove from Cart
 
         public CartEntity Removecart(int UserId, int ProductId)
         {
