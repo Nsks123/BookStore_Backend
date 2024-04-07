@@ -21,6 +21,7 @@ namespace Repository_BookStore_Layer.Services
         {
             this.context = context;
         }
+        //Add Book
         public BookEntity CreateBook(CreateBookModel model)
         {
             BookEntity entity = new BookEntity();

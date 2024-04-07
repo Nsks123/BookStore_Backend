@@ -15,6 +15,7 @@ namespace Manager_BookStore_Layer.Interfaces
         public CartEntity UpdateCart(int userid, int bookid);
         //Remove from Cart
         public CartEntity Removecart(int UserId, int ProductId);
+        //Delete Cart
         public CartEntity DeleteCart(int id, int cartid);
         public List<CartEntity> OrderBook(int id);
     }
