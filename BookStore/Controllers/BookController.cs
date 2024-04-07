@@ -150,6 +150,7 @@ namespace BookStore.Controllers
                 return BadRequest(new ResModel<List<BookEntity>> { Success = false, Message = " Sorted Price Failed", Data = null });
             }
         }
+        //Sorting books by price in Desending
         [HttpGet]
         [Route("SortPriceInDes")]
         public ActionResult SortPriceInDes()
