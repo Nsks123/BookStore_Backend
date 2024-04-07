@@ -47,6 +47,7 @@ namespace BookStore.Controllers
                 return BadRequest(new ResModel<CartEntity> { Success = false, Message =ex.Message, Data = null });
             }
         }
+        //Get all Cart
         [Authorize]
         [HttpGet]
         [Route("GetAllCart")]

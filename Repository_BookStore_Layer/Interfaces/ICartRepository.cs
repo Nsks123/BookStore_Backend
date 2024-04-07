@@ -9,6 +9,7 @@ namespace Repository_BookStore_Layer.Interfaces
     {
         //Add  to Cart
         public CartEntity AddCart(int id, int bookid);
+        //Get all Cart
         public List<CartEntity> GetAll(int id);
         public CartEntity UpdateCart(int userid, int bookid);
         public CartEntity Removecart(int UserId, int ProductId);
