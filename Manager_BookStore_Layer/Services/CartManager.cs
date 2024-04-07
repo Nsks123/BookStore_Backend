@@ -19,6 +19,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.AddCart(id, bookid);
         }
+        //Get all Cart
         public List<CartEntity> GetAll(int id)
         {
             return repository.GetAll(id);
