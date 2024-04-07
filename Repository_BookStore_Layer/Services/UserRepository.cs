@@ -58,7 +58,7 @@ namespace Repository_BookStore_Layer.Services
 
                 if (password == model.Password)
                 {
-                    var token=GenerateToken(user.Emailid,user.UserId);
+                    var token=GenerateToken(user.Emailid,user.UserId,user.FullName);
                     return token;
                 }
                 else
@@ -129,14 +129,15 @@ namespace Repository_BookStore_Layer.Services
         {
             return context.UserTable.Any(x => x.Emailid == Email);
         }
-        public string GenerateToken(string Emailid, int UserId)
+        public string GenerateToken(string Emailid, int UserId,string Name)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             var claims = new[]
             {
                 new Claim("Emailid",Emailid),
-                new Claim("User Id",UserId.ToString())
+                new Claim("User Id",UserId.ToString()),
+                new Claim("UserName",Name)
             };
             var token = new JwtSecurityToken(config["Jwt:Issuer"],
                 config["Jwt:Audience"],
@@ -156,7 +157,7 @@ namespace Repository_BookStore_Layer.Services
                 ForgotPasswordModel password = new ForgotPasswordModel();
                 password.Emailid = Email;
                 password.Id = Convert.ToString(user.UserId);
-                password.token = GenerateToken(user.Emailid, user.UserId);
+                password.token = GenerateToken(user.Emailid, user.UserId,user.FullName);
                 return password;
             }
             else
