@@ -9,6 +9,7 @@ namespace Manager_BookStore_Layer.Interfaces
     {
         //Add to Wishlist
         public WishListEntity AddToWishList(int id, int bookid);
+        //Get All Wishlist
         public List<WishListEntity> GetAllWishlist(int id);
         public WishListEntity DeleteWishList(int id, int wishlistid);
     }
