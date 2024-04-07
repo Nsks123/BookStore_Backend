@@ -46,6 +46,7 @@ namespace BookStore.Controllers
                 return BadRequest(new ResModel<WishListEntity> { Success = false, Message = ex.Message, Data = null });
             }
         }
+        //Get All Wishlist
         [Authorize]
         [HttpGet]
         [Route("GetAllWishList")]
