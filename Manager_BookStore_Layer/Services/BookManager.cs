@@ -25,6 +25,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.GetAllBook();
         }
+        //Get All Books by BookId
         public BookEntity GetBookId(int id)
         {
             return repository.GetBookId(id);
