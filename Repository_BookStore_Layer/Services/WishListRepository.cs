@@ -39,6 +39,7 @@ namespace Repository_BookStore_Layer.Services
         {
             return context.WishListTable.Where(o => o.UserId == id).ToList();
         }
+        //Delete Wishlist
         public WishListEntity DeleteWishList(int id, int wishlistid)
         {
             WishListEntity wishlistEntity = context.WishListTable.SingleOrDefault(o => o.UserId == id && o.WishListId == wishlistid);
