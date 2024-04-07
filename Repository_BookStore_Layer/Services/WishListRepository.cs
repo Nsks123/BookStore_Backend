@@ -34,6 +34,7 @@ namespace Repository_BookStore_Layer.Services
                 throw new Exception("The Book is Already in Wishlist");
             }
         }
+        //Get All Wishlist
         public List<WishListEntity> GetAllWishlist(int id)
         {
             return context.WishListTable.Where(o => o.UserId == id).ToList();
