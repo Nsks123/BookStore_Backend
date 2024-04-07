@@ -53,6 +53,7 @@ namespace Repository_BookStore_Layer.Services
             return context.BookTable.ToList();
 
         }
+        //Get All Books by BookId
         public BookEntity GetBookId(int id)
         {
             return context.BookTable.SingleOrDefault(o => o.BookId == id);

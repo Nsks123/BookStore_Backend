@@ -12,6 +12,7 @@ namespace Repository_BookStore_Layer.Interfaces
         public BookEntity CreateBook(CreateBookModel model);
         //Get All Books
         public List<BookEntity> GetAllBook();
+        //Get All Books by BookId
         public BookEntity GetBookId(int id);
         public List<BookEntity> GetBySearch(string author, string bookname);
         public List<BookEntity> SortByPrice();
