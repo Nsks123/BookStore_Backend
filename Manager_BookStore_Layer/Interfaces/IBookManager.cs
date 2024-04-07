@@ -10,7 +10,7 @@ namespace Manager_BookStore_Layer.Interfaces
     {
         public BookEntity CreateBook(CreateBookModel model);
         public List<BookEntity> GetAllBook();
-        public List<BookEntity> GetBookId(int id);
+        public BookEntity GetBookId(int id);
         public List<BookEntity> GetBySearch(string author, string bookname);
         public List<BookEntity> SortByPrice();
         public List<BookEntity> SortByPriceDes();

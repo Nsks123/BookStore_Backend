@@ -30,10 +30,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.CheckEmail(Email);
         }
-        public string GenerateToken(string Email, int Id)
-        {
-            return repository.GenerateToken(Email, Id);
-        }
+       
 
         public bool ResetPassword(string Email, ResetPasswordModel resetPasswordModel)
         {

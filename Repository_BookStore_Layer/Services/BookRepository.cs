@@ -1,4 +1,6 @@
-﻿using Common_BookStore_Layer.RequestModel;
+﻿using CloudinaryDotNet.Actions;
+using CloudinaryDotNet;
+using Common_BookStore_Layer.RequestModel;
 using Microsoft.Extensions.Configuration;
 using Repository_BookStore_Layer.BookStoreContext;
 using Repository_BookStore_Layer.BookStoreEntity;
@@ -25,7 +27,7 @@ namespace Repository_BookStore_Layer.Services
             entity.BookName = model.BookName;
             entity.Description = model.Description;
             entity.Author = model.Author;
-            entity.BookImage = model.BookImage;
+            entity.BookImage = UploadImage(model.BookImage,model.BookName);
             entity.Price = model.Price;
             entity.DiscountPrice = model.DiscountPrice;
             entity.Quantity = model.Quantity;
@@ -49,9 +51,9 @@ namespace Repository_BookStore_Layer.Services
             return context.BookTable.ToList();
 
         }
-        public List<BookEntity> GetBookId(int id)
+        public BookEntity GetBookId(int id)
         {
-            return context.BookTable.Where(a=>a.BookId == id).ToList();
+            return context.BookTable.SingleOrDefault(o => o.BookId == id);
         }
         public List<BookEntity> GetBySearch(string author, string bookname)
         {
@@ -59,12 +61,12 @@ namespace Repository_BookStore_Layer.Services
         }
         public List<BookEntity> SortByPrice()
         {
-            return context.BookTable.OrderBy(a=>a.Price).ToList();
+            return context.BookTable.OrderBy(a=>a.DiscountPrice).ToList();
            
         }
         public List<BookEntity> SortByPriceDes()
         {
-            return context.BookTable.OrderByDescending(a=>a.Price).ToList();
+            return context.BookTable.OrderByDescending(a=>a.DiscountPrice).ToList();
 
         }
         public List<BookEntity> SortByArrivalAsc()
@@ -75,6 +77,18 @@ namespace Repository_BookStore_Layer.Services
         public List<BookEntity> SortByArrivalDes()
         {
             return context.BookTable.OrderByDescending(a => a.CreatedAt ).ToList();
+        }
+        public string UploadImage(string filepath,string bookname)
+        {
+            Account account = new Account("dygoi0kzf", "822117938224726", "DmntXzwnkbSDGj-depe7MShNlLU");
+            Cloudinary cloudinary = new Cloudinary(account);
+            ImageUploadParams uploadParams = new ImageUploadParams()
+            {
+                File = new FileDescription(filepath),
+                PublicId = bookname
+            };
+            ImageUploadResult uploadResult = cloudinary.Upload(uploadParams);
+            return uploadResult.Url.ToString();
         }
     }
 }

@@ -23,7 +23,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.GetAllBook();
         }
-        public List<BookEntity> GetBookId(int id)
+        public BookEntity GetBookId(int id)
         {
             return repository.GetBookId(id);
         }

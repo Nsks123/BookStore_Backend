@@ -13,7 +13,6 @@ namespace Repository_BookStore_Layer.Interfaces
         public ForgotPasswordModel ForgetPass(string Email);
 
         public bool CheckEmail(string Email);
-        public string GenerateToken(string Email, int Id);
 
         public bool ResetPassword(string Email, ResetPasswordModel resetPasswordModel);
 

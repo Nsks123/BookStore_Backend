@@ -19,6 +19,41 @@ namespace Repository_BookStore_Layer.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Repository_BookStore_Layer.BookStoreEntity.AddressEntity", b =>
+                {
+                    b.Property<int>("AddressId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MobileNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("label")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AddressId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AddressTable");
+                });
+
             modelBuilder.Entity("Repository_BookStore_Layer.BookStoreEntity.BookEntity", b =>
                 {
                     b.Property<int>("BookId")
@@ -61,6 +96,40 @@ namespace Repository_BookStore_Layer.Migrations
                     b.ToTable("BookTable");
                 });
 
+            modelBuilder.Entity("Repository_BookStore_Layer.BookStoreEntity.CartEntity", b =>
+                {
+                    b.Property<int>("CartId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CartQuantity")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsPurchased")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<float>("TotalPrice")
+                        .HasColumnType("real");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CartId");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("CartTable");
+                });
+
             modelBuilder.Entity("Repository_BookStore_Layer.BookStoreEntity.UserEntity", b =>
                 {
                     b.Property<int>("UserId")
@@ -86,6 +155,67 @@ namespace Repository_BookStore_Layer.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("UserTable");
+                });
+
+            modelBuilder.Entity("Repository_BookStore_Layer.BookStoreEntity.WishListEntity", b =>
+                {
+                    b.Property<int>("WishListId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("WishListId");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("WishListTable");
+                });
+
+            modelBuilder.Entity("Repository_BookStore_Layer.BookStoreEntity.AddressEntity", b =>
+                {
+                    b.HasOne("Repository_BookStore_Layer.BookStoreEntity.UserEntity", "UsersId")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Repository_BookStore_Layer.BookStoreEntity.CartEntity", b =>
+                {
+                    b.HasOne("Repository_BookStore_Layer.BookStoreEntity.BookEntity", "BooksId")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Repository_BookStore_Layer.BookStoreEntity.UserEntity", "UsersId")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Repository_BookStore_Layer.BookStoreEntity.WishListEntity", b =>
+                {
+                    b.HasOne("Repository_BookStore_Layer.BookStoreEntity.BookEntity", "BooksId")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Repository_BookStore_Layer.BookStoreEntity.UserEntity", "UsersId")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

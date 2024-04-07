@@ -80,19 +80,19 @@ namespace BookStore.Controllers
                 if (response != null)
                 {
 
-                    return Ok(new ResModel<List<BookEntity>> { Success = true, Message = "Get Book Success", Data = response });
+                    return Ok(new ResModel<BookEntity> { Success = true, Message = "Get Book Success", Data = response });
 
                 }
                 else
                 {
 
-                    return BadRequest(new ResModel<List<BookEntity>> { Success = false, Message = " Get Book Failed", Data = response });
+                    return BadRequest(new ResModel<BookEntity>{ Success = false, Message = " Get Book Failed", Data = response });
                 }
             }
             catch (Exception ex)
             {
 
-                return BadRequest(new ResModel<List<BookEntity>> { Success = false, Message = " Get Book Failed", Data = null });
+                return BadRequest(new ResModel<BookEntity> { Success = false, Message = " Get Book Failed", Data = null });
             }
         }
         [HttpGet]

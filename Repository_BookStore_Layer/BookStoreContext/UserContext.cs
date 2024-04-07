@@ -11,6 +11,9 @@ namespace Repository_BookStore_Layer.BookStoreContext
         public UserContext(DbContextOptions<UserContext> options) : base(options) { }
         public DbSet<UserEntity> UserTable { get; set; }
         public DbSet<BookEntity> BookTable { get; set; }
+        public DbSet<CartEntity> CartTable { get; set; }
+        public DbSet<WishListEntity> WishListTable { get; set;}
+        public DbSet<AddressEntity> AddressTable { get; set; }  
 
     }
 }

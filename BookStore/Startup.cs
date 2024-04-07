@@ -37,11 +37,25 @@ namespace BookStore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(x =>
+            {
+                x.AddPolicy(
+                 name: "AllowOrigin",
+                 builder => {
+                     builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                 });
+            });
             services.AddDbContext<UserContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:BookStoreDb"]));
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IUserManager, UserManager>();
             services.AddTransient<IBookRepository, BookRepository>();
             services.AddTransient<IBookManager, BookManager>();
+            services.AddTransient<ICartRepository, CartRepository>();
+            services.AddTransient<ICartManager, CartManager>();
+            services.AddTransient<IWishListRepository, WishListRepository>();
+            services.AddTransient<IAddressManager, AddressManger>();
+            services.AddTransient<IAddressRepository, AddressRepository>();
+            services.AddTransient<IWishListManager, WishListManager>();
             services.AddControllers();
             services.AddDistributedMemoryCache();
             services.AddStackExchangeRedisCache(options => { options.Configuration = Configuration["RedisCacheUrl"]; });
@@ -114,6 +128,7 @@ namespace BookStore
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors("AllowOrigin");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
