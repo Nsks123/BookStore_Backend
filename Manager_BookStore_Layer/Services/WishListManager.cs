@@ -24,6 +24,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.GetAllWishlist(id);
         }
+        //Delete Wishlist
         public WishListEntity DeleteWishList(int id, int wishlistid)
         {
             return repository.DeleteWishList(id, wishlistid);
