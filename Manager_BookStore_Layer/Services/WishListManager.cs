@@ -19,6 +19,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.AddToWishList(id, bookid);
         }
+        //Get All Wishlist
         public List<WishListEntity> GetAllWishlist(int id)
         {
             return repository.GetAllWishlist(id);

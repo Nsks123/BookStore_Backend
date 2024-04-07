@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26E6C212-2138-49F8-9B26-2E935E0AC767}|..\\Common_BookStore_Layer\\Common_BookStore_Layer.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\common_bookstore_layer\\requestmodel\\addaddressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3FCD7EF-4C4B-4816-BC89-B26F4E09E622}|BookStore.csproj|c:\\users\\hp\\desktop\\locobuzz\\training\\bookstore\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3FCD7EF-4C4B-4816-BC89-B26F4E09E622}|BookStore.csproj|solutionrelative:controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,64 +34,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddAddressModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Common_BookStore_Layer\\RequestModel\\AddAddressModel.cs",
+              "RelativeDocumentMoniker": "..\\Common_BookStore_Layer\\RequestModel\\AddAddressModel.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Common_BookStore_Layer\\RequestModel\\AddAddressModel.cs",
+              "RelativeToolTip": "..\\Common_BookStore_Layer\\RequestModel\\AddAddressModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T15:15:16.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WishListController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\Controllers\\WishListController.cs",
               "RelativeDocumentMoniker": "Controllers\\WishListController.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\BookStore\\Controllers\\WishListController.cs",
               "RelativeToolTip": "Controllers\\WishListController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAZAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwDAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:12:08.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IWishListManager.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Interfaces\\IWishListManager.cs",
               "RelativeDocumentMoniker": "..\\Manager_BookStore_Layer\\Interfaces\\IWishListManager.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Interfaces\\IWishListManager.cs",
               "RelativeToolTip": "..\\Manager_BookStore_Layer\\Interfaces\\IWishListManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:11:58.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WishListManager.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Services\\WishListManager.cs",
               "RelativeDocumentMoniker": "..\\Manager_BookStore_Layer\\Services\\WishListManager.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Manager_BookStore_Layer\\Services\\WishListManager.cs",
               "RelativeToolTip": "..\\Manager_BookStore_Layer\\Services\\WishListManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:11:43.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IWishListRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Interfaces\\IWishListRepository.cs",
               "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\Interfaces\\IWishListRepository.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Interfaces\\IWishListRepository.cs",
               "RelativeToolTip": "..\\Repository_BookStore_Layer\\Interfaces\\IWishListRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:11:25.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WishListRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Services\\WishListRepository.cs",
               "RelativeDocumentMoniker": "..\\Repository_BookStore_Layer\\Services\\WishListRepository.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\LocoBuzz\\Training\\Repository_BookStore_Layer\\Services\\WishListRepository.cs",
               "RelativeToolTip": "..\\Repository_BookStore_Layer\\Services\\WishListRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T15:11:04.825Z",
               "EditorCaption": ""
