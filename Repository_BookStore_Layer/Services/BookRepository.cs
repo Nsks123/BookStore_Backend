@@ -47,6 +47,7 @@ namespace Repository_BookStore_Layer.Services
                 return entity;
             }
         }
+        //Get All Books
         public List<BookEntity> GetAllBook()
         {
             return context.BookTable.ToList();
