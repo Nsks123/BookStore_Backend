@@ -30,6 +30,7 @@ namespace Manager_BookStore_Layer.Services
         {
             return repository.GetBookId(id);
         }
+        //Get Book By Search
         public List<BookEntity> GetBySearch(string author, string bookname)
         {
             return repository.GetBySearch(author, bookname);

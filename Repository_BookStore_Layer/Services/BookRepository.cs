@@ -58,6 +58,7 @@ namespace Repository_BookStore_Layer.Services
         {
             return context.BookTable.SingleOrDefault(o => o.BookId == id);
         }
+        //Get Book By Search
         public List<BookEntity> GetBySearch(string author, string bookname)
         {
             return context.BookTable.Where(b=>b.Author.Contains(author) ||  b.BookName.Contains(bookname)).ToList();
